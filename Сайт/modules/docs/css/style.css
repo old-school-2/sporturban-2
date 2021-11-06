@@ -1,0 +1,11 @@
+.docsAddButtonForm {
+    margin: 0 0 20px 20px;
+}
+
+.docsAddButtonForm button {
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #EB1D37;
+    color: #fff;
+}

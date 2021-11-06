@@ -1,0 +1,8 @@
+.regSuccessMessageDiv {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #1E2024;
+    padding: 15px 20px;
+}

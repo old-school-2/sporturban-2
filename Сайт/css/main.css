@@ -1,0 +1,51 @@
+.topbar .topbar-left, .navbar-custom {
+    background-color: #EB1D37;
+}
+
+.page-link {
+    color: #EB1D37;
+}
+
+.page-item.active .page-link {
+    background-color: #EB1D37;
+    border-color: #EB1D37;
+}
+
+.button-menu-mobile {
+    background-color: #E92817;
+}
+
+.bg-primary {
+    background-color: #EB1D37 !important;
+}
+
+#sidebar-menu ul ul li.active a {
+    color: #000;
+    font-weight: bold;
+}
+
+.tmpAjaxListDiv {
+    position: absolute; 
+    width: 88%;
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    z-index: 20;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.tmpAjaxListDiv li {
+    list-style-type: none;
+    padding: 7px 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.tmpAjaxListDiv li:hover {
+    background-color: #EFF3F6;
+}
+
+.logo img {
+    position: relative;
+    top: -3px
+}
