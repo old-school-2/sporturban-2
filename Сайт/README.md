@@ -1,11 +1,16 @@
 
 
-Презентация проекта
+Главный шаблон сайта: /tmp.inc.php
+Модуль интерактивной карты: /modules/map4
 
-https://docs.google.com/presentation/d/1P3d9Y9x2Q67NoBWt300d72dlubkrOzxf/edit#slide=id.p4
+/modules/map4/include/data.php - подключение данных из БД по интерактивной карте (включая обработчик POST параметров при формировании фильтров поиска по карте)
+/modules/map4/include/map.php - подключение Яндекс.Карты
+/modules/map4/ajax.php - обработчик POST запросов к модулю интерактивной карты
 
-Видео Демо
+Модуль главной страницы, к которой подключается модуль интерактивной карты: /modules/main
+Шаблон главной страницы сайта и фильтра поиска: /modules/main/tmp.inc.php
 
-https://www.youtube.com/watch?v=0CrPBX0brPE
+Алгоритм работы модулей закомментирован и выведен в вышеуказанных файлах
 
- 
+
+Полная документация проекта: https://sporturban.ru/docs
